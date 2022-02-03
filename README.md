@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+-- 
+1. Created a React application 
+2. Created brach test
+3. Made files for test:
+    - Home
+    - Header
+    - Footer
+    - NotFound
+
+ * Added the following test
+    Pull form GitHub
+    - Yarn'
+
+    Testing with Jest and Enzyme
+    - Install Enzyme
+    - $ yarn add -D enzyme react-test-renderer enzyme-adapter-react-16
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -53,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Making a Progressive Web App -->
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
