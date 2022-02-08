@@ -18,5 +18,14 @@ describe("When the Header Load...", () => {
         //Act on the header by finding an element
         const navLinkWrapper = header.find("NavLink")
         expect(navLinkWrapper.length).toEqual(3)
+        
+        const navDropdownWrapper = header.find("DropdownItem")
+        expect(navDropdownWrapper.length).toEqual(4)
     })
+    it("has a brand of 'Cat Tinder'",() => {
+
+        const NavbarBrandWrapper = header.find('NavbarBrand')
+        console.log("nav bar brand debug", NavbarBrandWrapper.debug());
+        console.log("nav bar brand props", NavbarBrandWrapper.props());
+        expect(NavbarBrandWrapper.props().children).toEqual("Cat Tinder")
 })

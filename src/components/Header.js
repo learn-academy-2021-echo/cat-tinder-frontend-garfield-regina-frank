@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Router, NavLink } from 'react-router-dom'
-// import catLogo from '../assets/cat-logo.png'
+import catLogo from '../assets/cat-logo.png'
 
 class Header extends Component {
     render() {
