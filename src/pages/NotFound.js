@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import notCat from '../assets/not-cat.jpeg'
+import notCat from '../assets/monkey.jpeg'
 
 class NotFound extends Component {
   render() {

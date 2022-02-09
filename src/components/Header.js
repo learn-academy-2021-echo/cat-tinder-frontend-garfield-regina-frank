@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { Router, NavLink } from 'react-router-dom'
-import catLogo from '../assets/cat-logo.png'
+import catLogo from '../assets/images-2.jpeg'
 
 class Header extends Component {
     render() {
         return (
             <header>
                 <NavLink to="/">
-                    {/* <img src={catLogo} alt="logo for Cat Tinder" className="cat-logo" /> */}
+                    <img src={catLogo} alt="logo for Cat Tinder" className="cat-logo" />
                 </NavLink>
                 <div className="nav-links">
                     <ul>
